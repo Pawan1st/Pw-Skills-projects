@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+/* Header starts from here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 20px;
+}
+/* Logo Png */
+img{
+    width: 100px;
+    height: auto;
+}
+/* Navigation menu */
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+a{
+    color: #ffc233;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* Order and read menu button */
+button{
+    background-color: #ff515f;
+    color: #ffffff;
+    padding: 8px 30px ;
+    font-size: 15px;
+    font-weight: 800;
+    border: none;
+}
+button:hover{
+    color: #ff515f;
+    background-color: #ffffff;
+    border: 2px solid #ff515f;
+    cursor: pointer;
+}
+/* Hero section */
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+/* Hero section main heading */
+#main_heading{
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    color: #ffc233;
+}
+#scroll-icon{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 150px;
+    height: auto;
+} 

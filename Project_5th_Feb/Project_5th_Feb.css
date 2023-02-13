@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex;
+    flex-flow: column wrap;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: #000000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 15px 20px;
+}
+#header-left-section{
+    display: flex;
+    gap: 60px;
+}
+#header-left-section img{
+    width: 140px;
+    height: auto;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    border-left: 2px solid #ffffff;
+}
+.menu_pages{
+    font-size: 15px;
+    font-weight: 550;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 25px;
+}
+.menu_pages:hover{
+    color: #ffffff;
+    cursor: pointer;
+    font-size: larger;
+    background-color: #5955b3;
+}
+.buttons{
+    background-color: #ad0db9;
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 12px 35px;
+    border: none;
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #ad0db9;
+}
+#hero_section{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_03(HTML%2BCSS)/assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hero_section_headings{
+    text-align: center;
+    color: #ffffff;
+}
+#hero_section_headings h1{
+    font-size: 50px;
+}
+#hero_section_headings h3{
+    font-size: 30px;
+}
+#early_access_button{
+    font-size: 25px;
+    font-weight: 600;
+}
