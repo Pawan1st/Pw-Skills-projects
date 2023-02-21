@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#111827;
+}
+/* navigation bar starts */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 20px 25px 0px;
+}
+#menu-button img{
+    display: none;
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#menu-button img:hover{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+#home-button{
+    background-color: #6464e0;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+/* Hero section starts */
+/* Main section of hero section */
+#main_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heading-1st-line-img{
+    width: 40px;
+}
+#heading-1st-line{
+    color:#ffffff;
+    font-size: 35px;
+    display: flex;
+
+}
+#heading-2nd-line{
+    color: #ffffff;
+    font-size: 60px;
+}
+#heading-3rd-line{
+    color: #c5c559;
+    font-size: 35px;
+}
+#Computor-image{
+    width: 37vw;
+    height: auto;
+    padding-left: 25px;
+    padding-right:25px ;
+}
+/* Project section starts */
+#project_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.projects{
+    display: flex;
+}
+.section-heading{
+    color: #ffffff;
+    font-size: 40px;
+}
+#projects-underline{
+    width: 160px;
+    height: 7px;
+    border-radius: 15px;
+    background-color: #0000ff;
+}
+.projects-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project-image{
+    width: 20vw;
+    height: auto;
+    padding: 10px;
+}
+.project_headings{
+    color: #ffffff;
+    font-size: ;
+}
+/* Footer starts */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
+#footer-underline{
+    width: 220px;
+    height: 7px;
+    border-radius: 15px;
+    background-color: #0000ff;
+}
+#socila-icons{
+    padding: 20px;
+}
+.social-icons{
+    width: 30px;
+    height: auto;
+   margin: 20px;
+}
+@media(max-width:525px)
+{
+    #menu-button img {
+        display: block;
+    }
+    ul{
+    display: none;
+    }
+    #main_section{
+        flex-direction: column;
+        align-items: center;
+    }
+    #heading-1st-line{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #heading-1st-line h3{
+        font-size: 20px;
+    }
+    #heading-2nd-line{
+        font-size: 40px;
+    }
+    #heading-3rd-line{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    #Computor-image{
+        width: 60vw;
+    }
+    .section-heading{
+        font-size: 35px;
+    }
+    .projects{
+    flex-direction: column;
+    }
+    #projects-underline{
+    width: 140px;
+    }
+    .project-image{
+        width:60vw;
+    }
+    #footer-underline{
+    width: 190px;
+    }
+}
