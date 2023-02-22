@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f4f5 ;
+}
+/* Navigation bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    margin: 1% 10%;
+}
+/* Logo */
+#logo{
+    width: 140px;
+    height: auto;
+}
+/* Menu starts */
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size:large;
+    font-family: 'Lato', sans-serif;
+}
+/* Hero section */
+#hero_section{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 10vw;
+    width: 40vw;
+}
+/* Left hero section */
+#top_angle{
+    width: 25px;
+}
+#left_hero_section h1{
+    font-size: 70px;
+}
+#left_hero_section p{
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+}
+button{
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background-color: #22bc7e;
+    font-size: 25px;
+    font-weight: 700;
+}
+#bottom_angle{
+    width: 25px;
+    position: absolute;
+    left: 49vw;
+    bottom: 30vh;
+}
+/* background picture */
+#stethoscope{
+    height: 75vh;
+    position: absolute;
+    bottom: 35px;
+    left: 25vw;
+}
+#mouse{
+    position: absolute;
+    bottom: 150px;
+    left: 52vw;
+}
+/* Right hero section */
+.right_hero_section{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#green_circle{
+    height: 60%;
+    bottom: 30px;
+}
+#yellow_circle{
+    height: 50%;
+    bottom: 50px;
+}
+#doctor{
+    height: 90%;
+}

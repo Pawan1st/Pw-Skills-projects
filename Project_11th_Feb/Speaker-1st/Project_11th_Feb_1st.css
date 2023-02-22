@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+/* Navigation Starts */
+nav{
+    margin: 30px 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    /* logo */
+nav img{
+    width: 25px;
+    height: 25px;
+}
+    /* Menu */
+#nav_menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.menu_headings{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+#shop_button{
+    padding: 5px 25px;
+    background-color: #2c2c2e;
+    border-radius: 5px;
+    border-top: #ffffff 2px solid;
+    border-left: #ffffff 2px solid;
+}
+/* Intro Section Starts*/
+#intro_section{
+    display: flex;
+    justify-content: flex-start;
+}
+    /* Background Images */
+#main_image{
+    position: relative;
+    top: -25vh;
+    left: 25vw;
+}
+#text_image{
+    position: relative;
+    top: 3vh;
+    left: 50vw;
+    width: 340px;
+    height: 100px;
+}
+    /* Text section */
+#info_section{
+    position: relative;
+    top: 18vh;
+    left: 26vw;
+    width: 23vw;
+}
+.info_text{
+    font-family: 'Nunito', sans-serif;
+    color: #ffffff;
+}
+#main_info_heading{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+#info_heading{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+#info_text{
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+    /* Add to bag button */
+#add_to_bag_button{
+    background-color: #2c2c2e;
+    padding: 13px 35px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+    /* Social media */
+#social_media_icons{
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+    height: fit-content;
+    position: relative;
+    bottom: 10vh;
+    left: 10vw;
+}
+.social_icons{
+    width: 130px;
+    height: 40px;
+}
+/* Spec section starts */
+#spec_section{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+#spec_section>img{
+    width: 15vw;
+}
+    /* Text section */
+#main_spec_section{
+    display: flex;
+}
+    /* Positioning Text */
+.specs{
+    position: relative;
+    top: 10vh;
+    width: 10vw;
+}
+.spec_1{
+    left: 3vw;
+}
+    /* Styling Text */
+.specs p:first-of-type{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+.specs p:last-of-type{
+    color: #ffffff;
+    margin-bottom: 35px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+    /* Headphone Image */
+#main_spec_section>img{
+    width: 25vw;
+    height: auto;
+    position: relative;
+    top: 10vh;
+    left: 8vw;
+}
+/* Case Section */
+#case_section{
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#case_section>img{
+    width: 15vw;
+}
+/* Text of case section */
+#case_section>div{
+    display: flex;
+}
+/* Case image Positioning */
+#case_section>div>img{
+    position: relative;
+    top: 8vh;
+    width: 15vw;
+    left: -1vw;
+}
+/* Positioning of text elements*/
+#case_section_text p{
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    width: 15vw;
+    position: relative;
+    top: 15vh;
+    left: 1vw;
+}
+/* Text element stlying */
+#case_section_text p:first-of-type{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#case_section_text p:last-of-type{
+    background-color: #2c2c2e;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+/* Offer Section starts */
+#offer_section{
+    width: 60vw;
+    margin: auto;
+    background-color: #181a1b;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px;
+}
+#offer_section>img{
+    width: 25vw;
+}
+#offer_section>div>h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    margin-bottom: 15px;
+    width: 15vw;
+}
+.para_offer{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+}
+#buy_now_button{
+    background-color: #000000;
+    border-radius: 10px;
+    width: 8vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    margin-top:20px;
+}
+#product_section{
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#product_section>img{
+    width: 25vw;
+    margin-bottom: 15vh;
+}
+#product_cards{
+    display: flex;
+    width: 40vw;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+}
+.headphone{
+    width: 10vw;
+}
+.product_cards{
+    background-color: #2c2c2e;
+    border-radius: 15px;
+    height: 10vw;
+    width: 12vw;
+    margin: 140px 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.product_cards>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product_cards_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.product_cards_info>p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    width: 10vw;
+    padding: 5px 15px;
+}
+.product_cards>div{
+    position: relative;
+    top: -15vh;
+}
+.product_cards_info>div{
+    padding: 8px;
+    background-color: #000000;
+    border-radius: 5px;
+    margin-right: 10px ;
+}
+/* Footer starts */
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 30px;
+}
+/* Logo */
+footer>img{
+    width:40px;
+    height: auto;
+    height: 40px;
+}
+/* List menus */
+.menus>li:first-of-type{
+    margin-bottom:25px ;
+}
+.menus>li{
+    margin-bottom: 15px;
+}
+.menus>li:first-of-type>a{
+    font-size: 45px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+.menus>li>a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+/* Subscribe_section */
+.subscribe_section{
+    display: flex;
+    flex-direction: column;
+}
+#email_input{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    padding-left: 5px;
+}
+#subscribe_section>div:first-of-type{
+    width: 20vw;
+    height: 3vw;
+    background-color: #181a1b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+/* Subscribe button  */
+#subscribe_button{
+    background-color: #000000;
+    width: 7vw;
+    height: 2vw;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+#subscribe_button>img{
+    width: 20px;
+    height: 20px;
+}
+#subscribe_button{
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+/* Social media icons */
+#social_section{
+    position: relative;
+    top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header starts */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Real%20Estate/Photos/mainBackground.png?raw=true");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+}
+/* Navigation starts */
+nav{
+    width: 80vw;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    border-bottom: 2px solid #ffffff ;
+}
+/* Menu list styling */
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+/* Menu styling */
+.main_menu{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header Text Section */
+header section{
+    width: 80vw;
+    margin: auto;
+    padding: 80px 50px;
+}
+    /* Heading */
+header section h1{
+    color: #ffffff;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+    /* Para */
+header section p{
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: 30vw;
+    padding: 25px 0;
+}
+#learn_more_button{
+    padding: 10px 30px;
+    background-color: #5654d1;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+/* Logo section */
+#logo_section{
+    background-color: #ffffff;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 0;
+    border-radius: 35px;
+    position: relative;
+    top: 49vh;
+}
+/* article starts 2nd half of site */
+article{
+    background-color: #ebebeb;
+}
+/* Display card */
+#display_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* Display Card Main Heading */
+#display_card h1{
+    font-size: 50px;
+    font-weight:700;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+}
+#display_card>section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.cards{
+    width: 30vw;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+/* Property Images */
+.property_images{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 40px;
+}
+/* Display Card Details Positioning */
+.cards>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 25vw;
+    height: 15vh;
+    margin: auto;
+    position: relative;
+    bottom: 6vh;
+}
+/* Display Card Details Styling*/
+.details_card h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.details_card p{
+    color: #6563e9;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.detail_button{
+    background-color: #6563e9;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+/* Positioning Display Cards */
+.displace_1{
+    position: relative;
+    top: 4vh;
+}
+.displace_2{
+    position: relative;
+    top: 8vh;
+}
+/* Display Section */
+.display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+}
+/* Display section part 1 */
+.written_part {
+    width: 35vw;
+    margin-left: 30px;
+}
+.display_heading{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+#display_text{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px 0;
+}
+.early_book_button{
+    background-color: #5654d1;
+    margin: 50px 0;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* Display 1 */
+#flat_img_display_1{
+    width: 24vw;
+    height: 45vh;
+    border-radius: 40px;
+    position:relative;
+    right: 5vh;
+    bottom: 7vh;
+}
+#display_1_bg{
+    position: absolute;
+    left: 0px;
+}
+/* Display 2 */
+#display_2_bg{
+    position: absolute;
+    right: 0px;
+}
+#flat_img_display_2{
+    width: 24vw;
+    height: 45vh;
+    position:relative;
+    top: -70px;
+    left:50px;
+    border-radius: 40px;
+}
+/* Subscription Section */
+#subscription_section{
+    width: 85vw;
+    margin: 40px auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #6563e9;
+    border-radius: 15px;
+}
+    /* Subscription section heading */
+#subscription_section h1{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+    /* Subscription section heading */
+#subscription_section p{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin-bottom: 20px;
+    width: 55vw;
+    text-align: center;
+}
+    /* E-mail input */
+#subscription_section div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+#input_section{
+    width: 30vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #5654d1;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    gap: 20px;
+    padding: 0 20px;
+    border-radius: 20px;
+}
+#input_section input{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    caret-color: #ffffff;
+}
+#subscribe_button{
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: #6563e9;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+}
+footer div{
+    width: 20vw;
+}
+    /* Logo */
+footer div>img{
+    width: 10vw;
+}
+    /* Social icon */
+#social_icons img{
+    width: 3vw;
+    padding: 10px 0;
+    margin-right: 30px;
+}
+    /* Discription */
+footer div p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+    /* Styling Menus */
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    margin-bottom: 7px;
+}
+footer ul li:first-of-type a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
